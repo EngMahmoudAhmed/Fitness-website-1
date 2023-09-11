@@ -3,6 +3,7 @@ import Index from './components/Index'
 import '@fortawesome/fontawesome-free'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'framer-motion'
+import WOW from 'wowjs'
 import './index.css'
 function App() {
 
