@@ -28,9 +28,6 @@ section.trainer {
   
   .trainer .col-md-4:hover img {
     transform: scale(1.1);
-  }
-  
-  .trainer .col-md-4:hover img {
     transition: all 1s;
   }
   

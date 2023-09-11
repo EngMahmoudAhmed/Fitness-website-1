@@ -22,13 +22,13 @@ html {
 .btn {
   margin-bottom: 10px;
   padding: 10px 20px;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--orange) !important;
   display: inline-block;
   transition: all 1s;
   cursor: pointer;
   text-transform: capitalize;
   border-radius: 10px;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .btn:hover {
