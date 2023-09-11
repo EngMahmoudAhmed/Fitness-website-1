@@ -1,0 +1,53 @@
+
+/* start about-section */
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .about .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  .img-content {
+    width: 50%;
+    padding: 1rem;
+    height: 100%;
+  }
+  
+  .img-content img {
+    width: 100%;
+  }
+  
+  .content-details {
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .content-details h1 {
+    font-size: 2.2rem;
+    padding: 5px 0px;
+  }
+  
+  .about .btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 2px solid var(--orange);
+    display: inline-block;
+    transition: all 1s;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: var(--orange);
+    color: #fff;
+  }
+  /* end about-section */
+  
