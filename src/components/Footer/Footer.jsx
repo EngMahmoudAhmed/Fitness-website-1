@@ -10,7 +10,7 @@ function Footer() {
           <span className="">Mahmoud Ahmed</span>
         </div>
       </div>
-       </div>
+    </div>
   );
 }
 

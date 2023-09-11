@@ -28,6 +28,13 @@ html {
   cursor: pointer;
   text-transform: capitalize;
   border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: var(--orange) !important;
+  color: aliceblue !important;
+  transition: 0.5s;
 }
 
 .col-md-4 {
@@ -293,8 +300,7 @@ html {
     text-align: left;
     width: 50%;
     margin: 1rem auto;
-}
-  
+  }
 
   .register form .input-box {
     flex-flow: column;
