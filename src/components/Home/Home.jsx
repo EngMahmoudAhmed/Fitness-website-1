@@ -28,16 +28,9 @@ export default function Home() {
         <div>
           <div>
             <motion.h1
-              // initial={{ x: '-100vw' }}
-              // animate={{ x: 0 }}
-              // transition={{
-              //   type: "tween",
-              //   delay:1.5
-              //   }}
               variants={containerVariants}
               initial= 'hidden'
-              animate= 'visible'
-              
+              animate= 'visible'   
             >
               it's never too easy but
               <br /> you have to try
