@@ -25,6 +25,10 @@ section.trainer {
     position: relative;
     box-shadow: 0 0.3rem 0.5rem #000;
   }
+
+  .trainer .col-md-4 img {
+    min-height: 100%;
+  }
   
   .trainer .col-md-4:hover img {
     transform: scale(1.1);

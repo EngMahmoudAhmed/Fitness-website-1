@@ -40,14 +40,12 @@ export default function Home() {
               animate={{ x: 0 }}
               transition={{
                 type: "tween",
-                delay:2
-                
+                delay:2                
               }}
               whileHover={{
                 scale: 1.1,
                 boxShadow:'0px 0px 20px rgba(255,255,255,0.5)'
-              }}
-              
+              }}              
             >
               get started
             </motion.div>

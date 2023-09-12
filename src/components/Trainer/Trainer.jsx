@@ -1,5 +1,8 @@
 import React from 'react'
 import './trainer.style.css'
+import coach1 from '../assets/coach1.png'
+import coach2 from '../assets/coach2.png'
+import coach3 from '../assets/coach3.png'
 
 function Trainer() {
     return (
@@ -15,7 +18,7 @@ function Trainer() {
                                 <a href="www.linked-in.com" className="fab fa-linkedin fa-1x"></a>
                                 <a href="www.instagram.com" className="fab fa-instagram fa-1x"></a>
                             </div>
-                            <img src="../images/coach1.png" alt="" />
+                            <img src={coach1} alt="" />
 
                             <div className="title">John deo</div>
                         </div>
@@ -27,7 +30,7 @@ function Trainer() {
                                 <a href="www.linked-in.com" className="fab fa-linkedin fa-1x"></a>
                                 <a href="www.instagram.com" className="fab fa-instagram fa-1x"></a>
                             </div>
-                            <img src="images/coach3.png" alt="" />
+                            <img src={coach2} alt="" />
 
                             <div className="title">John deo</div>
                         </div>
@@ -39,7 +42,7 @@ function Trainer() {
                                 <a href="www.linked-in.com" className="fab fa-linkedin fa-1x"></a>
                                 <a href="www.instagram.com" className="fab fa-instagram fa-1x"></a>
                             </div>
-                            <img src='../../images/coach4.png' alt="" />
+                            <img src={coach3} alt="" />
 
                             <div className="title">John deo</div>
                         </div>
@@ -51,7 +54,7 @@ function Trainer() {
                                 <a href="www.linked-in.com" className="fab fa-linkedin fa-1x"></a>
                                 <a href="www.instagram.com" className="fab fa-instagram fa-1x"></a>
                             </div>
-                            <img src="images/coach1.png" alt="" />
+                            <img src={coach1} alt="" />
 
                             <div className="title">John deo</div>
                         </div>

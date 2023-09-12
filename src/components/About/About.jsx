@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.style.css'
+import gm5 from"../assets/gm5.jpg"
 
 function About() {
     return (
@@ -8,7 +9,7 @@ function About() {
             <section className="about" id="About">
                 <div className="content">
                     <div className="img-content">
-                        <img src='.././images/gm5.jpg' alt="img"/>
+                        <img src={gm5} alt="img"/>
                     </div>
                     <div className="content-details">
                         <h1>a word about us</h1>

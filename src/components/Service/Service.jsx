@@ -1,5 +1,14 @@
 import { React } from 'react';
 import './service.style.css'
+import gm1 from '../assets/gm1.jpg'
+import gm2 from '../assets/gm2.jpg'
+import gm3 from '../assets/gm3.jpg'
+import gm4 from '../assets/gm4.jpg'
+import gm5 from '../assets/gm5.jpg'
+import gm6 from '../assets/gm6.jpg'
+import gm7 from '../assets/gm7.jpg'
+import gm8 from '../assets/gm8.jpg'
+import gm9 from '../assets/gm9.jpg'
 
 function Service() {
 
@@ -10,7 +19,7 @@ function Service() {
                 <div className="box-container">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src="../../images/gm9.jpg" alt="" />
+                            <img src={gm1} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -19,7 +28,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/img4.jpg" alt="" />
+                            <img src={gm9} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -28,7 +37,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/img6.jpg" alt="" />
+                            <img src={gm2} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -37,7 +46,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/img4.jpg" alt="" />
+                            <img src={gm3} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -46,7 +55,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/img6.jpg" alt="" />
+                            <img src={gm4} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -55,7 +64,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/gm9.jpg" alt="" />
+                            <img src={gm5} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -64,7 +73,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/img6.jpg" alt="" />
+                            <img src={gm6} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -73,7 +82,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/gm9.jpg" alt="" />
+                            <img src={gm7} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -82,7 +91,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src="../../images/img4.jpg" alt="" />
+                            <img src={gm8} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
