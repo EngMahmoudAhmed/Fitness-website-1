@@ -3,6 +3,7 @@ import './trainer.style.css'
 import coach1 from '../assets/coach1.png'
 import coach2 from '../assets/coach2.png'
 import coach3 from '../assets/coach3.png'
+import coach4 from '../assets/coach4.jpg'
 
 function Trainer() {
     return (
@@ -54,7 +55,7 @@ function Trainer() {
                                 <a href="www.linked-in.com" className="fab fa-linkedin fa-1x"></a>
                                 <a href="www.instagram.com" className="fab fa-instagram fa-1x"></a>
                             </div>
-                            <img src={coach1} alt="" />
+                            <img src={coach4} alt="" />
 
                             <div className="title">John deo</div>
                         </div>
