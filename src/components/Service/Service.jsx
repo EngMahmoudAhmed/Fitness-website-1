@@ -19,7 +19,7 @@ function Service() {
                 <div className="box-container">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={gm1} alt="" />
+                            <img src={gm1} alt="" height={300}/>
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -55,7 +55,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src={gm5} alt="" />
+                            <img src={gm5} alt="" height={300}/>
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
@@ -73,7 +73,7 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src={gm7} alt="" />
+                            <img src={gm7} alt="" height={300}/>
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
