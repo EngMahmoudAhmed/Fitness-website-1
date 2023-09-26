@@ -28,15 +28,6 @@ function Service() {
                         </div>
 
                         <div className="col-md-4">
-                            <img src={gm9} alt="" />
-                            <div className="layer">
-                                <h3>lorem</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
-                                <div className="btn">more</div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4">
                             <img src={gm2} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
@@ -92,6 +83,15 @@ function Service() {
 
                         <div className="col-md-4">
                             <img src={gm8} alt="" />
+                            <div className="layer">
+                                <h3>lorem</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
+                                <div className="btn">more</div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-4">
+                            <img src={gm9} alt="" />
                             <div className="layer">
                                 <h3>lorem</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam saepe assumenda magnamsint.</p>
