@@ -18,6 +18,7 @@ const Index = () => {
     <div>
 
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='home' element={<Home />} />
         <Route path='' element={<About />} />
         <Route path='' element={<Service />} />
